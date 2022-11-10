@@ -1,8 +1,23 @@
 <html>
-<form action="weight1.php" method="post">
-    //配列名をここに
-    <input type="text" name="height">
-    <input type="submit" value="送信する">
+
+<head>
+    <meta charset="UTF-8">
+    <title>適正体重サンプル</title>
+</head>
+
+<body>
+<form method="post" action="wight1.php">
+    <p>
+        <label>身長：</label>
+        <input type="text" name="height">m
+    </p>
+
+    <p>
+        <label>体重：</label>
+        <input type="text" name="weight">kg
+    </p>
+    <input type="submit" value="送信">
 </form>
-<?php ?>
+</body>
+
 </html>
